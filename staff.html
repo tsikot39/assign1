@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Staff List</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Profile</a>
+        <a href="mark.html">Grade Comverter</a>
+        <a href="weather.html">Weather</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Staff List</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th onclick="sortBy('name')">Name</th>
+            <th onclick="sortBy('salary')">Salary</th>
+            <th>Position</th>
+            <th>Date Hired</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+        <tbody id="staffList"></tbody>
+      </table>
+    </main>
+    <footer id="footer">
+      <p>
+        &copy; 2024 John Corpus. All rights reserved.
+        <span id="current-date"></span>
+      </p>
+    </footer>
+    <script src="staff.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mark to Grade Converter</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Profile</a>
+        <a href="staff.html">Staff</a>
+        <a href="weather.html">Weather</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Mark to Grade Converter</h2>
+      <label for="mark-input">Enter Mark:</label>
+      <input type="text" id="mark-input" placeholder="Enter mark..." />
+      <button onclick="convertMark()">Convert</button>
+      <p id="grade-result"></p>
+      <p id="validationmessage"></p>
+    </main>
+    <footer id="footer">
+      <p>
+        &copy; 2024 John Corpus. All rights reserved.
+        <span id="current-date"></span>
+      </p>
+    </footer>
+    <script src="mark_to_grade_converter.js"></script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #37383d;
+  color: #fff;
+  padding: 10px;
+  z-index: 1000;
+}
+
+header nav {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+main {
+  text-align: center;
+  padding: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+img {
+  width: 150px;
+  border-radius: 25px;
+}
+
+footer {
+  background-color: #37383d;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* STAFF PAGE CSS */
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  cursor: pointer;
+}
+
+th:hover {
+  background-color: #f2f2f2;
+}
+
+#current-date {
+  color: white;
+}
+
+#profile-text {
+  text-align: justify;
+}
+
+#profile-pic-name {
+  margin-top: 10px; /* Add margin to separate the name from the image */
+  display: none; /* Initially hide the name */
+}
+
+#validationmessage {
+  color: red;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="weather.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Profile</a>
+        <a href="mark.html">Grade Converter</a>
+        <a href="Staff.html">Staff</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Temperature Converter</h2>
+      <label for="fahrenheit">Enter Temperature in Fahrenheit:</label>
+      <input type="number" id="fahrenheit" />
+      <button id="convertBtn">Convert</button>
+      <br /><br />
+      <div id="result"></div>
+    </main>
+    <footer id="footer">
+      <p>
+        &copy; 2024 John Corpus. All rights reserved.
+        <span id="current-date"></span>
+      </p>
+    </footer>
+  </body>
+</html>
